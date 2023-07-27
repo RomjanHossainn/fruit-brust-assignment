@@ -42,7 +42,13 @@
             text-decoration: none;
             font-family: 'Lato', sans-serif;
         }
-
+        /* defuld line style  */
+        .line{
+          height: 1px;
+          width: 100px;
+          background-color: #B7B7B7;
+          margin-bottom: 16px;
+        }
        
         
         
@@ -50,7 +56,7 @@
 </head>
 <body>
     <!-- header section start  -->
-    <header class="max-w-screen-xl mx-auto mt-10">
+    <header class="max-w-screen-xl mx-auto mt-6">
         <!-- nav  -->
         <nav class="px-5">
           <div class="navbar px-5 flex flex-row-reverse lg:flex-row  py-2 lg:py-4 lg:px-12 rounded-full bg-primary-color justify-between">
@@ -174,9 +180,9 @@
        </div>
     </header>
     <!-- header section end  -->
-
+    
     <!-- main section start  -->
-    <main class="max-w-screen-xl mx-auto mt-24">
+    <main class="max-w-screen-xl mx-auto mt-14 lg:mt-24">
       <!-- deal of the day section  -->
       <section class="px-5">
         <div>
@@ -266,7 +272,6 @@
           <button class="bg-primary-color mt-7 text-white rounded-md px-6 py-3">Shop All</button>
         </div>
         <!-- deal off the day modal  -->
-        <!-- Open the modal using ID.showModal() method -->
         
         <dialog id="my_modal_1" class="modal w-96 mx-auto">
           <form method="dialog" class="modal-box text-center space-y-5">
@@ -326,7 +331,7 @@
         </dialog>
       </section>
       <!-- meet the team section start  -->
-      <section class=" pt-10 lg:py-24 px-20 bg-gray-900 rounded-lg bg-blend-overlay bg-opacity-80 bg-no-repeat  bg-cover mt-28" style="background-image: url(./images/team.png);" >
+      <section class=" mx-5 pt-10 lg:py-24 px-20 bg-gray-900 rounded-lg bg-blend-overlay bg-opacity-80 bg-no-repeat  bg-cover mt-28" style="background-image: url(./images/team.png);" >
         <div>
           <div class="text-center">
             <h2 class="text-white font-extrabold text-3xl lg:text-5xl">Meet the team section</h2>
@@ -417,44 +422,121 @@
              </div>
         </div>
       </section>
+      <!-- why chose us section start  -->
+      <section class="mt-20 px-5">
+        <div class="text-center">
+          <h2 class="font-extrabold text-3xl lg:text-5xl ">Why Choose Us</h2>
+          <p class="mt-5">Contrary to popular belief, is not simply random text. It has roots in a piece of classical <br> Latin literature from 45 BC, making it over 2000 years old.</p>
+        </div>
+        <div class="grid lg:grid-cols-3 mt-10 gap-8 gap-y-10 ">
+          <div class=" space-y-10 lg:space-y-7">
+            <div class="lg:flex items-center gap-5 text-center lg:text-start">
+                <div class="flex justify-center mb-2">
+                  <img class="bg-[#E7E7E7] p-4 max-w-2xl  rounded-full"  src="./images/group 1.png" alt="">
+                </div>
+              <div>
+                <h5 class="text-xl  mb-4 font-extrabold text-black-color">Dedicated Team</h5>
+                <div class="line mx-auto lg:mx-0"></div>
+                <p>Professional employees are there for you to pick the most amazing and fresh fruits.</p>
+              </div>
+            </div>
+            <div class="lg:flex items-center gap-5 text-center lg:text-start">
+                <div class="flex justify-center mb-2">
+                  <img class="bg-[#E7E7E7] p-4 max-w-2xl rounded-full" src="./images/love 1.png" alt="">
+                </div>
+              <div>
+                <h5 class="text-xl  mb-4 font-extrabold text-black-color ">Fresh is Best</h5>
+                <div class="line mx-auto lg:mx-0"></div>
+                <p>Professional employees are there for you to pick the most amazing and fresh fruits.</p>
+              </div>
+            </div>
+            <div class="lg:flex items-center gap-5 text-center lg:text-start">
+              <div class="flex justify-center mb-2">
+                <img class="bg-[#E7E7E7] p-4 max-w-2xl rounded-full" src="./images/gift-box 1.png" alt="">
+              </div>
+              <div>
+                <h5 class="text-xl  mb-4 font-extrabold text-black-color ">Gift Certificates</h5>
+                <div class="line mx-auto lg:mx-0"></div>
+                <p>Professional employees are there for you to pick the most amazing and fresh fruits.</p>
+              </div>
+            </div>
+          </div>
+          <div class="flex justify-center">
+            <img src="./images/whychoose1.png" class="h-full object-cover object-center rounded-lg" alt="">
+          </div>
+          <div class=" space-y-10 lg:space-y-7">
+            <div class="lg:flex items-center text-center lg:text-right gap-5">
+              <div class="">
+                <h5 class="text-xl  mb-4 font-extrabold text-black-color">Integrated Supplier</h5>
+                <div class="line mx-auto"></div>
+                <p>Professional employees are there for you to pick the most amazing and fresh fruits.</p>
+              </div>
+              <div class="flex justify-center mt-3">
+                <img class="bg-[#E7E7E7] max-w-2xl rounded-full p-4" src="./images/fruit-1.png" alt="">
+              </div>
+            </div>
+              <div class="lg:flex items-center text-center lg:text-right gap-5">
+                <div>
+                  <h5 class="text-xl  mb-4 font-extrabold text-black-color">Sustainable Practice</h5>
+                  <div class="line mx-auto "></div>
+                  <p>Professional employees are there for you to pick the most amazing and fresh fruits.</p>
+                </div>
+                <div class="flex justify-center mt-3">
+                  <img class="bg-[#E7E7E7] max-w-2xl rounded-full p-4" src="./images/ice-cream 1.png" alt="">
+                </div>
+              </div>
+              <div class="lg:flex items-center text-center lg:text-right gap-5">
+                <div>
+                  <h5 class="text-xl  mb-4 font-extrabold text-black-color">The Benefits Only</h5>
+                  <div class="line mx-auto "></div>
+                  <p>Professional employees are there for you to pick the most amazing and fresh fruits.</p>
+                </div>
+                <div class="flex justify-center mt-3">
+                  <img class="bg-[#E7E7E7] max-w-2xl rounded-full p-4" src="./images/like 1.png" alt="">
+                </div>
+              </div>
+
+            </div>
+        </div>
+      </section>
     </main>
     <!-- main section end  -->
 
     <!-- footer section start  -->
     <footer class=" py-10 md:py-14 lg:py-28 mt-32" style="background-color: black;">
         <div class="space-y-10">
-          <div class="flex justify-center gap-3 items-center">
+          <div class="flex justify-center gap-3 items-center cursor-pointer">
             <img src="./images/logo.png" alt="">
             <h3 class="text-white font-bold text-2xl lg:text-3xl">Fruit Burst</h3>
           </div>
           <div>
             <ul class="flex items-center gap-y-5 md:gap-14 flex-wrap text-center justify-center">
-              <li class="text-[#fff] w-1/4 md:w-max">Home</li>
-              <li class="text-[#fff] w-1/4 md:w-max">About Us</li>
-              <li class="text-[#fff] w-1/4 md:w-max">Shop</li>
-              <li class="text-[#fff] w-1/4 md:w-max">All Fruits</li>
-              <li class="text-[#fff] w-1/4 md:w-max">Support</li>
-              <li class="text-[#fff] w-1/4 md:w-max">My Account</li>
+              <li class="text-[#fff] w-1/4 md:w-max cursor-pointer">Home</li>
+              <li class="text-[#fff] w-1/4 md:w-max cursor-pointer">About Us</li>
+              <li class="text-[#fff] w-1/4 md:w-max cursor-pointer">Shop</li>
+              <li class="text-[#fff] w-1/4 md:w-max cursor-pointer">All Fruits</li>
+              <li class="text-[#fff] w-1/4 md:w-max cursor-pointer">Support</li>
+              <li class="text-[#fff] w-1/4 md:w-max cursor-pointer">My Account</li>
             </ul>
           </div>
           <div class="flex gap-8 md:gap-12 justify-center flex-wrap ">
             <div class="w-1/4 md:w-10 flex justify-center">
-              <img class="" src="./images/facebook 1.png" alt="">
+              <img class="cursor-pointer" src="./images/facebook 1.png" alt="">
             </div>
             <div class="w-1/4 md:w-10  flex justify-center">
-              <img class="" src="./images/instagram 1.png" alt="">
+              <img class="cursor-pointer" src="./images/instagram 1.png" alt="">
             </div>
             <div class="w-1/4 flex md:w-10  justify-center">
-              <img class=" " src="./images/linkedin 1.png" alt="">
+              <img class=" cursor-pointer" src="./images/linkedin 1.png" alt="">
             </div>
             <div class="w-1/4 flex md:w-10  justify-center">
-              <img class="" src="./images/apple 1.png" alt="">
+              <img class="cursor-pointer" src="./images/apple 1.png" alt="">
             </div>
             <div class="w-1/4 flex md:w-10  justify-center">
-              <img class="" src="./images/Group 49.png" alt="">
+              <img class="cursor-pointer" src="./images/Group 49.png" alt="">
             </div>
            <div class="w-1/4 flex md:w-10  justify-center">
-            <img class="" src="./images/twitter 1.png" alt="">
+            <img class="cursor-pointer" src="./images/twitter 1.png" alt="">
            </div>
           </div>
         </div>
